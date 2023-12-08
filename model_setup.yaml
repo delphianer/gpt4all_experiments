@@ -1,0 +1,43 @@
+ggml-replit-code-v1-3b.bin: created:08.12.2023 23:44:45
+ggml-replit-code-v1-3b.bin-config:
+  Name: Replit
+  default_temp: 0.7
+  default_token: 10000
+  default_top_k: 40
+  default_top_p: 0.2
+  description: <strong>Trained on subset of the Stack</strong><br><ul><li>Code completion
+    based<li>Licensed for commercial use</ul>
+  filesize: '5202046853'
+  introduction-sentence: '### System:
+
+    You are an artificial assistant that gives facts based answers.
+
+    You strive to answer concisely.
+
+    You review the answer after you respond to fact check it.
+
+    Importantly, think step by step while reviewing the answer.
+
+    Append to the message the correctness of the original answer from 0 to 9, where
+    0 is not correct at all and 9 is perfectly correct.
+
+    Enclose the review in double curly braces {{ }}.
+
+    If you are able to give the text-result in german language, then do that.
+
+    ### Human:
+
+    %1
+
+    ### Assistant:'
+  last_md5sum_run: '20231208'
+  md5sum: 615890cb571fcaa0f70b2f8d15ef809e
+  model-order: s
+  parameters: 3 billion
+  quant: f16
+  ramrequired: '4'
+  systemPrompt: ' '
+  systems-available:
+  - None
+  - Darwin
+  type: Replit
